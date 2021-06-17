@@ -1,4 +1,4 @@
-function z=PrCh(t,y)
+function z=odefun(t,y)
 global a12 a23 a32 a34 a24 a42 a25 a56 a65 a67 a57 a75 a58 a89 a98 a9_10 a8_10 a10_8 a8_11
 
 z = zeros(length(y),1);
