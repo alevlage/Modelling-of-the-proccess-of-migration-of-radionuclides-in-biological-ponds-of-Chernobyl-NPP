@@ -10,4 +10,8 @@ y0– vector of initial conditions.
 
 The main one is the control program main.m. It first sets the values of radionuclide transfer coefficients. After that the procedure of numerical integration is formed. To do this, the initial conditions and the final integration time are set. Integrated values ​​are plotted.
 
-To form the process of numerical integration by the ode45 function, it is necessary to form the procedure of the right parts of the differential equations of radionuclide accumulation. The equations are written in the dimensionless Cauchy form. The constants are passed to the function of the right parts as global variables from the control program. The initial values ​​of the arguments are formed in the driver and passed to the function when the ode45 is called.
+To form the process of numerical integration by the ode45 function, it is necessary to form the procedure of the right parts of the differential equations of radionuclide accumulation. The equations are written in the dimensionless Cauchy form. The constants are passed to the function of the right parts as global variables from the control program. The initial values of the arguments are formed in the driver and passed to the function when the ode45 is called.
+
+![image](https://user-images.githubusercontent.com/65093378/154980369-a76af19d-6710-4d6d-b047-bb79f38bb04c.png)
+![image](https://user-images.githubusercontent.com/65093378/154980389-8d82f5af-ec43-418e-8c76-902ddf9891c6.png)
+![image](https://user-images.githubusercontent.com/65093378/154980414-4d4c9366-4db5-4243-8184-9c7df50283a2.png)
